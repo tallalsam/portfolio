@@ -53,9 +53,9 @@
             }
 
             [data-typeitid='jobtitle'] .ti-cursor {
-              animation: blink-jobtitle 1s infinite;
+                animation: blink-jobtitle 1s infinite;
             }
-          </style>
+        </style>
 
     </head>
     
@@ -85,31 +85,35 @@
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                            <a class="nav-link active" data-scroll-nav="0" aria-current="page" href="#home">HOME</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+                            <a class="nav-link" data-scroll-nav="1" aria-current="page" href="#about">ABOUT</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#resume">RESUME</a>
+                            <a class="nav-link" data-scroll-nav="2" aria-current="page" href="#resume">RESUME</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#services">SERVICES</a>
+                            <a class="nav-link" data-scroll-nav="3" aria-current="page" href="#services">SERVICES</a>
                         </li>
 
                         <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#work">WORK</a>
+                            <a class="nav-link" data-scroll-nav="4" aria-current="page" href="#work">WORK</a>
                         </li> -->
 
                         <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#blog">BLOG</a>
+                            <a class="nav-link" data-scroll-nav="5" aria-current="page" href="#testimonial">Testimonial</a>
+                        </li> -->
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="6" aria-current="page" href="#blog">BLOG</a>
                         </li> -->
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#contact">CONTACT</a>
+                            <a class="nav-link" data-scroll-nav="7" aria-current="page" href="#contact">CONTACT</a>
                         </li>
 
                         </ul>
@@ -134,7 +138,7 @@
 
             <!-- Home Section -->
 
-            <section id="home" class="home-section" style="background-image: url(images/banner5.jpg);">
+            <section id="home" class="home-section" data-scroll-index="0" style="background-image: url(images/banner5.jpg);">
 
                 <div class="container">
 
@@ -190,7 +194,7 @@
 
             <!-- About Section -->
 
-            <section id="about" class="section about-section">
+            <section id="about" data-scroll-index="1" class="section about-section">
 
                 <div class="container">
 
@@ -286,7 +290,7 @@
 
             <!-- Skills And Experience Section -->
 
-            <section id="resume" class="section skills-section bg-gray">
+            <section id="resume" data-scroll-index="2" class="section skills-section bg-gray">
 
                 <div class="container">
 
@@ -466,7 +470,7 @@
 
             <!-- Services Section -->
 
-            <section id="services" class="section services-section">
+            <section id="services" data-scroll-index="3" class="section services-section">
 
                 <div class="container">
 
@@ -587,7 +591,7 @@
 
             <!-- End of Work Section -->
 
-            <!-- <section class="section testimonial-section bg-no-repeat bg-center" style="background-position: center 125%;background-image: url(assets/img/bg-1.png);">
+            <!-- <section data-scroll-index="5" class="section testimonial-section bg-no-repeat bg-center" style="background-position: center 125%;background-image: url(assets/img/bg-1.png);">
                 <div class="container">
                     <div class="section-heading">
                         <h3>What people say about us?</h3>
@@ -670,7 +674,7 @@
 
             <!-- Blog Section -->
 
-            <!-- <section id="blog" data-scroll-index="5" class="section bolg-section bg-gray">
+            <!-- <section id="blog" data-scroll-index="6" class="section bolg-section bg-gray">
                 <div class="container">
                     <div class="section-heading">
                         <h3>My Blogs & Tutorials</h3>
@@ -807,7 +811,7 @@
 
 
             <!-- Contact Section -->
-            <section id="contact" data-scroll-index="6" class="section contact-section">
+            <section id="contact" data-scroll-index="7" class="section contact-section">
                 <div class="container">
                     <div class="section-heading">
                         <h3>Have Queries.. ??? Lets Chat</h3>
