@@ -284,8 +284,8 @@ body{
 
 @media (max-width: 768px) {
     .home-section .user-img .user-img-round {
-        width: 250px;
-        height: 250px; 
+        width: 300px;
+        height: 300px; 
     } 
 }
 
