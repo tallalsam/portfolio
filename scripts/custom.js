@@ -213,7 +213,7 @@
                     speed: 200,
                     loop: true,
                     strings: [
-                        'Web Developer',
+                        'Software Developer',
                     ],
                     breakLines: false
                 });
